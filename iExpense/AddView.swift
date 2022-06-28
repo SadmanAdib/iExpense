@@ -43,3 +43,10 @@ struct AddView: View {
     }
 }
 
+struct AddView_Previews: PreviewProvider {
+    static var previews: some View {
+       AddView(expenses: Expenses())
+    }
+}
+
+
